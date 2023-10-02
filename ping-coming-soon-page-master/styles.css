@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.launch-section {
+  display: flex;
+  justify-content: center;
+  //align-items: center;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.launch-section h1 {
+  padding-top: 30px;
+}
+
+.main-header {
+  color: hsl(0, 0%, 59%);
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.soon-text {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  font-size: 46px;
+}
+
+.launch-section p {
+  padding-top: 10px;
+  font-weight: 300;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  //align-items: center;
+  margin-top: 45px;
+  gap: 1.5em;
+}
+
+.email-input {
+  width: 20%;
+  height: 50px;
+  border-radius: 35px;
+  border-height: 15%;
+  border: 1px solid hsl(223, 100%, 88%);
+  text-indent: 25px;
+}
+
+#notify-btn {
+  width: 10%;
+  border-radius: 28px;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  border: 2px solid;
+}

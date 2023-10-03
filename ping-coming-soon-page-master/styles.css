@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+   font size: 20px;
+}
 
 .launch-section {
   display: flex;
@@ -41,10 +44,10 @@
   justify-content: center;
   //align-items: center;
   margin-top: 45px;
-  gap: 1.5em;
+  gap: 1em;
 }
 
-.email-input {
+#email-input {
   width: 20%;
   height: 50px;
   border-radius: 35px;
@@ -59,4 +62,51 @@
   background-color: hsl(223, 87%, 63%);
   color: white;
   border: 2px solid;
+}
+
+#error-message {
+  display: flex;
+  justify-content: center;
+  margin-right: 275px;
+  padding-top: 10px;
+  color: hsl(354, 100%, 66%);
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.data-img img {
+  max-width: 40%;
+  max-height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  gap: 1.5em;
+  height: 10vh;
+}
+
+.link {
+  border-radius: 35px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid hsl(223, 100%, 88%);
+  text-align: center;
+  margin: 7px;
+  line-height: 50px;
+}
+
+a:hover {
+  background-color: hsl(223, 87%, 63%);
+}
+
+.facebook:hover {
+  color: red;
 }

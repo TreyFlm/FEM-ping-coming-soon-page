@@ -18,7 +18,10 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
       rel="stylesheet"
     />
-
+    <script
+      src="https://kit.fontawesome.com/676ec98b78.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Frontend Mentor | Ping coming soon page</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -44,16 +47,29 @@
       </div>
     </section>
 
-    <section class="input-section">
-      <input
-        type="text"
-        class="email-input"
-        placeholder="Your email address..."
-      />
-      <button id="notify-btn">Notify Me</button>
-    </section>
+    <div class="input-section">
+      <input id="email-input" type="text" placeholder="Your email address..." />
 
-    <!-- Notify Me &copy; Copyright Ping. All rights reserved. -->
+      <button id="notify-btn">Notify Me</button>
+    </div>
+    <span id="error-message"></span>
+    <div class="data-img">
+      <img src="images/illustration-dashboard.png" alt="" />
+    </div>
+
+    <div class="socials">
+      <a class="link facebook">
+        <i class="fa-brands fa-facebook-f fa-lg" style="color: #4f7df3"></i>
+      </a>
+      <a class="link twitter">
+        <i class="fa-brands fa-twitter fa-lg" style="color: #4f7df3"></i>
+      </a>
+
+      <a class="link insta">
+        <i class="fa-brands fa-instagram fa-lg" style="color: #4f7df3"></i>
+      </a>
+    </div>
+    <Notify Me &copy; Copyright Ping. All rights reserved.></Notify>
 
     <footer>
       <!-- <p class="attribution">
@@ -63,5 +79,6 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </p> -->
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
